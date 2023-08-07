@@ -1,0 +1,15 @@
+
+<!-- html code of the project page and styling from the bootstrap -->
+
+<div class="w-50 border border-secondary bg-dark bg-gradient border-1 p-3 m-auto rounded">
+    <h3 class="display-8 p-3 mb-2  bg-light text-dark rounded">
+      Project Name : <%= project.name %>
+    </h3>
+    <h4 class="display-8 p-3 mb-2 bg-light text-dark rounded">
+      Author Name : <%= project.author %>
+    </h4>
+    <h5 class="display-9 p-3 mb-2  p-2 background text-dark bg-opacity-50  rounded">
+      Description : <%= project.description %>
+    </h5>
+  </div>
+  <%-include('./partials/_issues'); %>

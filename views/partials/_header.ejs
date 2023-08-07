@@ -1,0 +1,14 @@
+<link rel="stylesheet" href="/css/buttons.css">
+<link rel="stylesheet" href="/css/header.css">
+
+<!-- this is header partials which is showing into the top of the page -->
+
+
+<!-- shows create project button on project page and create issue buton if the project is open -->
+<nav class="navbar navbar-expand-sm headerBackground  align">
+    <div class="container-fluid headerBackground">
+      <a class="navbar-brand  ms-4" href="/" style="font-weight:bolder"> Issue Tracker </a>
+      <% if( title === "Project Page"){ %> <%- include('_issue_form'); %> <%
+      }else{ %> <%- include('_project_form'); %> <% } %>
+    </div>
+  </nav>
