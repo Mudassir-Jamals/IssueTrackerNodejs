@@ -1,0 +1,32 @@
+//   styling for  footer like background-color in gradient way and also style buttons
+    
+
+.footerBackground{
+        background: rgb(63,94,251);
+        background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(154,82,182,1) 48%, rgba(252,70,107,0.7838322829131652) 100%);
+    
+        div{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .name{
+                margin-left: 5px;
+                 margin-top:4px!important;
+                 color: rgb(18, 110, 6);
+            }
+            a{
+               
+                margin:0px!important;
+                background-color: black;
+                color: white;
+                border: 1px solid white;
+                border-radius: 10px;
+                box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+            }
+        }
+    
+    
+
+}
+
