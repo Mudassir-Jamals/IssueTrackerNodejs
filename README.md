@@ -1,3 +1,35 @@
+IssueTracker:->>>  A nodejs + ejs web application to track issues/bugs for a project. <br>
+Technology Used :->>> Nodejs,ejs,Express,Mongodb,Gulp... <br>
+
+<h1> Features :->>></h1> <br>
+Home Page
+    Show a list of projects.
+    Give a button to create a new Project (On creating a new project it should
+     appear in the list)
+ Create Project Page
+3.1. Accept the following fields to create a project
+3.1.1. Name
+3.1.2. Description
+3.1.3. Author
+4. Project Detail Page
+4.1. When the user clicks on a project (in home page) redirect the user to this
+page which will show bugs related to this project
+4.2. User should be able to perform following actions on this page
+4.2.1. Filter by multiple labels i.e. I should be able to filter by 2 or more
+labels at the same time
+4.2.2. Filter by author
+4.2.3. Search by title and description
+4.3. A button to create an issue
+5. Create issue page
+5.1. User should be able to create an issue for a project
+5.2. Accept the following fields
+5.2.1. Title
+5.2.2. Description
+5.2.3. Labels (multiple labels can be added to a project, IF a project has a
+label already show it (in dropdown) as the user types the label in)
+5.2.4. Author
+
+
 
 ![Screenshot (28)](https://github.com/kfaizan0496/IssueTrackerNodejs/assets/113850768/4d8d4e81-085d-4f05-9471-f616ce6ce70e)
 ![Screenshot (29)](https://github.com/kfaizan0496/IssueTrackerNodejs/assets/113850768/5d2256b1-3ea2-4b40-8169-63fc46a5838e)
