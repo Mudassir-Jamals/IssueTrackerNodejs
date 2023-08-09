@@ -1,22 +1,31 @@
-IssueTracker:->>>  A nodejs + ejs web application to track issues/bugs for a project. <br>
-Technology Used :->>> Nodejs,ejs,Express,Mongodb,Gulp... <br>
+<h1>IssueTracker:</h1>  A nodejs + ejs web application to track issues/bugs for a project. <br>
+<h3> Technology Used :</h3> Nodejs,ejs,Express,Mongodb,Gulp... <br>
 
-<h1> Features :->>></h1> <br>
-Home Page
-    Show a list of projects.
-    Give a button to create a new Project (On creating a new project it should
-     appear in the list)
- Create Project Page
-3.1. Accept the following fields to create a project
-3.1.1. Name
-3.1.2. Description
-3.1.3. Author
-4. Project Detail Page
-4.1. When the user clicks on a project (in home page) redirect the user to this
-page which will show bugs related to this project
-4.2. User should be able to perform following actions on this page
-4.2.1. Filter by multiple labels i.e. I should be able to filter by 2 or more
-labels at the same time
+<h3> Features :</h3> <br>
+Home Page <br>
+<ul>
+    <li>Show a list of projects</li>
+   <li></li>  Give a button to create a new Project (On creating a new project it should
+     appear in the list)</ul> 
+    <br>
+ Create Project Page <br>
+ <ul>
+       <li></li>
+       <li></li>
+       <li></li>
+ Accept the following fields to create a project
+ Name
+ Description
+ Author
+ </ul>
+ Project Detail Page <br>
+ <ul>
+  When the user clicks on a project (in home page) redirect the user to this
+  page which will show bugs related to this project
+  User should be able to perform following actions on this page
+  Filter by multiple labels i.e. I should be able to filter by 2 or more
+  labels at the same time
+     </ul>
 4.2.2. Filter by author
 4.2.3. Search by title and description
 4.3. A button to create an issue
