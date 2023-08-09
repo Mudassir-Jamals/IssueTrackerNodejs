@@ -1,0 +1,25 @@
+.align {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.button {
+  margin: 0px !important;
+  color: black;
+}
+
+.background {
+  background-color: rgb(150, 205, 236);
+}
+
+.btnBg {
+  background-color: black;
+}
+
+.open-project-button {
+  background-color: black !important;
+  color: white !important;
+}
+
+/*# sourceMappingURL=buttons.css.map */
