@@ -26,23 +26,3 @@ module.exports=db;
 
 
 
-// const mongoose = require('mongoose');
-// const retry = require('mongoose-retry');
-
-// const connectWithRetry = () => {
-//   return mongoose.connect(url, { useNewUrlParser: true })
-//     .catch(() => retry(connectWithRetry));
-// };
-
-// connectWithRetry();
-
-// mongoose.connect(url, {
-//   useNewUrlParser: true,
-//   serverSelectionTimeoutMS: 10000, // 30 seconds
-// });
-
-
-
-
-
-// mongodb+srv://kfaizan0496:<password>@cluster0.ebrke2k.mongodb.net/?retryWrites=true&w=majority 
